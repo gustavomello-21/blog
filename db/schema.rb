@@ -73,8 +73,11 @@ ActiveRecord::Schema[7.1].define(version: 2025_02_06_022434) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+<<<<<<< HEAD
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+=======
+>>>>>>> 8ef029287a43ba796450ec0fc376ef26f2d3d5cf
   add_foreign_key "likes", "posts"
   add_foreign_key "likes", "users"
   add_foreign_key "posts", "users"
