@@ -59,6 +59,9 @@ group :development, :test do
 
   # to tests
   gem 'rspec-rails'
+
+  # to factory bot
+  gem 'faker'
 end
 
 group :development do
